@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Async - Practice</title>
+  </head>
+  <body>
+    <main class="container">
+      <hr />
+
+      <div id="part-one">
+        <h3 id="title-one">Part One</h3>
+
+        <hr />
+        <h3>Multi Promise request chain</h3>
+        <!-- ? START MULTI REQUEST promise chain -->
+        <div id="container">
+          <h1>My favorite number facts</h1>
+          <ul class="multi"></ul>
+        </div>
+        <!-- ! END - MULTI REQUEST promise chain -->
+
+        <hr />
+        <h3>Single request bootstrap card</h3>
+        <!-- ? START - SINGLE REQUEST BOOTSTRAP CARD=============================>>>>>>>>>>>>>>>>>> -->
+        <div class="card" style="width: 18rem">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+            <p class="card-text"></p>
+            <a href="" class="card-link btn btn-primary"> Randomizer </a>
+          </div>
+        </div>
+        <!-- ! END - SINGLE REQUEST BOOTSTRAP CARD -->
+
+        <hr />
+        <h3>SINGLE promise REQUEST MULTI NUMBER</h3>
+        <!-- ? START - single request multi number  -->
+        <div>
+          <ul class="single"></ul>
+        </div>
+        <!-- ! END - single request multi number  -->
+        <hr />
+      </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

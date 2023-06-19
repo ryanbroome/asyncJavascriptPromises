@@ -1,0 +1,38 @@
+body {
+    background-color: green;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/* TODO REMOVE WHEN DONE */
+
+.drawn-card {
+    position: absolute;
+    top: 75px;
+    left: 100px;
+    /* TODO fix degrees either by hardcoding a style attr in JS or making a bunch of different classes and choosing based on JS dynamic code  */
+    transform: rotate(-35deg);
+}
+
+.drawn-card1 {
+    position: absolute;
+    top: 75px;
+    left: 100px;
+    /* TODO fix degrees either by hardcoding a style attr in JS or making a bunch of different classes and choosing based on JS dynamic code  */
+    transform: rotate(35deg);
+}
+
+#part-one {
+    background-color: black;
+}
+
+#hand {
+    display: flex;
+    flex-direction: row;
+}
